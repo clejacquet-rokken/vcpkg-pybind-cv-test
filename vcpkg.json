@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
+    "name": "pybind-test",
+    "version": "0.1.0",
+    "dependencies": [
+        {
+            "name": "pybind11"
+        }
+    ],
+    "overrides": [
+        {
+            "name": "pybind11",
+            "version": "2.9.1"
+        }
+    ],
+    "builtin-baseline": "12c2a93b4007612b5ffa980c9d2235eb0bcac10f"
+}

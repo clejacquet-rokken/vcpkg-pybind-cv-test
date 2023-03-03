@@ -1,0 +1,10 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "[path-to-vcpkg]/scripts/buildsystems/vcpkg.cmake",
+
+        // If using virtualenv:
+        // "CUSTOM_SYS_PATH": "[path-to-env]/Lib/site-packages",
+        // "PYTHON_EXECUTABLE:FILEPATH": "[path-to-env]/Scripts/python.exe"
+    },
+    "cmake.generator": "Ninja"
+}

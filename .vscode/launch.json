@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "C++ Launch (Windows)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "logging": {
+                "moduleLoad": false,
+                "trace": true
+            },
+            "environment": [
+                // {
+                //     "name": "PYTHONPATH",
+                //     "value": [path-to-external-opencv]/build/python"
+                // }
+            ],
+            "showDisplayString": true
+        }
+    ],
+}
